@@ -54,7 +54,8 @@ class App extends Component {
 								className="data-search-container results-container"
 								innerClass={{
 									input: 'search-input',
-								}}
+                }}
+                showVoiceSearch={true}
 							/>
 							<Results currentTopics={this.state.currentTopics} toggleTopic={this.toggleTopic} />
 						</div>
